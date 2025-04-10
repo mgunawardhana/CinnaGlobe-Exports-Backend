@@ -1,0 +1,49 @@
+# Node.js Dependencies
+node_modules/  # Ignore the node_modules folder (dependencies installed by npm)
+npm-debug.log*  # Ignore npm debug logs
+yarn-error.log*  # Ignore Yarn error logs (if you use Yarn)
+
+# Environment Variables
+.env  # Ignore the .env file (contains sensitive data like DB credentials)
+.env.*  # Ignore all environment-specific files
+
+# Logs
+logs/  # Ignore log files
+*.log  # Ignore any log files
+*.log.*  # Ignore rotated log files (e.g., access.log.1)
+
+# Build Artifacts
+dist/  # Ignore the dist folder (common for build outputs)
+build/  # Ignore the build folder (if you use a build step)
+
+# Editor and OS Files
+.DS_Store  # Ignore macOS system files
+.vscode/  # Ignore VS Code settings (optional, remove if you want to track these)
+.idea/  # Ignore IntelliJ IDEA files (if you use JetBrains IDEs)
+*.swp  # Ignore swap files created by text editors
+Thumbs.db  # Ignore Windows system files
+
+# Dependency Lock Files (optional)
+# Uncomment the next line if you don’t want to track package-lock.json
+# package-lock.json
+
+# Test Coverage Reports
+coverage/  # Ignore test coverage reports
+
+# Temporary Files
+*.tmp  # Ignore temporary files
+*.bak  # Ignore backup files
+*.pid  # Ignore process ID files
+*.seed  # Ignore seed files
+*.pid.lock  # Ignore lock files
+
+# IDE-specific Files
+*.iml  # Ignore IntelliJ IDEA module files
+*.sublime-workspace  # Ignore Sublime Text workspace files
+*.sublime-project  # Ignore Sublime Text project files
+
+# Miscellaneous
+*.log.*  # Ignore rotated log files
+*.tgz  # Ignore tarballs
+*.tar.gz  # Ignore compressed files
+*.env.local  # Ignore local environment files
